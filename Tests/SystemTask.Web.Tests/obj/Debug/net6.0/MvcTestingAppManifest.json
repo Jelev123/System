@@ -1,0 +1,12 @@
+{
+  "SystemTask.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\SystemTask.Common",
+  "SystemTask.Data.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Data\\SystemTask.Data.Common",
+  "SystemTask.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Data\\SystemTask.Data",
+  "SystemTask.Data.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Data\\SystemTask.Data.Models",
+  "SystemTask.Services.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Services\\SystemTask.Services.Data",
+  "SystemTask.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Services\\SystemTask.Services",
+  "SystemTask.Services.Messaging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Services\\SystemTask.Services.Messaging",
+  "SystemTask.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Web\\SystemTask.Web",
+  "SystemTask.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Web\\SystemTask.Web.Infrastructure",
+  "SystemTask.Web.ViewModels, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Owner\\Desktop\\Test\\Web\\SystemTask.Web.ViewModels"
+}

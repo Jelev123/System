@@ -1,0 +1,17 @@
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Data.Models.deps.json
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Data.Models.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Data.Models.pdb
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Data.Common.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Data.Common.pdb
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.csproj.CopyComplete
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\refint\SystemTask.Data.Models.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\SystemTask.Data.Models.pdb
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\obj\Debug\net6.0\ref\SystemTask.Data.Models.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Services.Mapping.dll
+C:\Users\Owner\Desktop\Test\Data\SystemTask.Data.Models\bin\Debug\net6.0\SystemTask.Services.Mapping.pdb

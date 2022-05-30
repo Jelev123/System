@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IS1RSe9/0S2R6D0mrk+FACoosDrP3zP1/9fjShN/Dzp7T/R4CUwA+latttChf4cloXrkeoEPU7WtpGUnsA3m0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Owner\\Desktop\\Test\\Services\\SystemTask.Services\\SystemTask.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

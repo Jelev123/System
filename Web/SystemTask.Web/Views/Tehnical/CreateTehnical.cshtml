@@ -1,0 +1,64 @@
+﻿@using SystemTask.Data.Models.ViewModel
+@model CreateTehnicalViewModel
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+        </div>
+          <div class="form-group">
+            <label asp-for="CreationDate"></label>
+            <input asp-for="CreationDate" class="form-control" />
+        </div>
+       <div id="BlocksContainer">
+        <label asp-for="TehnicalBlocks"></label>
+        <a class="btn btn-success" onclick="AddMoreBlocks()">+</a>
+    </div>
+     <div id="SystemContainer">
+        <label asp-for="TehnicalSystems"></label>
+        <a class="btn btn-success" onclick="AddMoreSystems()">+</a>
+    </div>
+       <div id="EmployeeContainer">
+        <label asp-for="TehnicalEmployees"></label>
+        <a class="btn btn-success" onclick="AddMoreEmployee()">+</a>
+    </div>
+
+        <input class="btn text-black btn-info text-center " type="submit" value="Add" />
+    </form>
+
+</div>
+
+@section Scripts {
+    <script>
+        var blockIndex = 0;
+        function AddMoreBlocks() {
+            $("#BlocksContainer").
+                append("<div class='form-control'>Name: <input type='text' name='TehnicalBlocks[" + blockIndex + "].BlockName' /> Code: <input type='text' name='TehnicalBlocks[" + blockIndex +"].Code' /></div>");
+            blockIndex++;
+        }
+    </script>
+
+     <script>
+        var systemIndex = 0;
+        function AddMoreSystems() {
+            $("#SystemContainer").
+                append("<div class='form-control'>Name: <input type='text' name='TehnicalSystems[" + systemIndex + "].SysteName' /> Code: <input type='text' name='TehnicalSystems[" + systemIndex +"].Code' /></div>");
+            systemIndex++;
+        }
+    </script>
+
+     <script>
+        var employeeIndex = 0;
+        function AddMoreEmployee() {
+            $("#EmployeeContainer").
+                append("<div class='form-control'>Activity: <input type='text' name='TehnicalEmployees[" + employeeIndex + "].Activity' /> FirstName: <input type='text' name='TehnicalEmployees[" + employeeIndex +"].FirstName' /> SurName: <input type='text' name='TehnicalEmployees[" + employeeIndex + "].SurName' /> LastName: <input type='text' name='TehnicalEmployees[" + employeeIndex + "].LastName' /> </div>");
+            employeeIndex++;
+        }
+    </script>
+
+}

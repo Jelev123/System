@@ -1,0 +1,12 @@
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\bin\Debug\net6.0\SystemTask.Web.Infrastructure.deps.json
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\bin\Debug\net6.0\SystemTask.Web.Infrastructure.dll
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\bin\Debug\net6.0\SystemTask.Web.Infrastructure.pdb
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.dll
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\refint\SystemTask.Web.Infrastructure.dll
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\SystemTask.Web.Infrastructure.pdb
+C:\Users\Owner\Desktop\Test\Web\SystemTask.Web.Infrastructure\obj\Debug\net6.0\ref\SystemTask.Web.Infrastructure.dll

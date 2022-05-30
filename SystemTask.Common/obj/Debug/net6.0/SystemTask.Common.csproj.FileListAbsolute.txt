@@ -1,0 +1,12 @@
+C:\Users\Owner\Desktop\Test\SystemTask.Common\bin\Debug\net6.0\SystemTask.Common.deps.json
+C:\Users\Owner\Desktop\Test\SystemTask.Common\bin\Debug\net6.0\SystemTask.Common.dll
+C:\Users\Owner\Desktop\Test\SystemTask.Common\bin\Debug\net6.0\SystemTask.Common.pdb
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.dll
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\refint\SystemTask.Common.dll
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\SystemTask.Common.pdb
+C:\Users\Owner\Desktop\Test\SystemTask.Common\obj\Debug\net6.0\ref\SystemTask.Common.dll

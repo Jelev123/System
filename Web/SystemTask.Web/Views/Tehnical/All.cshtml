@@ -1,0 +1,46 @@
+﻿@using SystemTask.Data.Models.ViewModel
+@using System.Text
+@model AllListViewModel
+
+
+
+<div class="row">
+
+    @foreach (var items in Model.Tehnicals)
+    {
+        <table class="table  table-dark">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th style="color : white" scope="col">Name</th>
+                    <th style="color : white" scope="col">Description</th>
+                    <th style="color : white" scope="col">Blocks</th>
+                    <th style="color : white" scope="col">Systems</th>
+                    <th style="color : white" scope="col">Creatin Date</th>
+                    <th style="color : white" scope="col">Responsible Person</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"></th>
+                    <td>@items.Name</td>
+                    <td>@items.Description</td>
+                    <td>@items.BlockName  @items.BlockCode</td>
+                    <td>@items.SystemName  @items.SystemCode</td>
+                    <td>@items.DateAndTimeCreated</td>
+
+                    <td>@items.Activity @items.FirstName @items.SurName @items.LastName</td>
+
+
+
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+    }
+
+</div>

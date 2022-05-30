@@ -1,0 +1,10 @@
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\bin\Debug\netstandard2.1\SystemTask.Services.Mapping.deps.json
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\bin\Debug\netstandard2.1\SystemTask.Services.Mapping.dll
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\bin\Debug\netstandard2.1\SystemTask.Services.Mapping.pdb
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.csproj.AssemblyReference.cache
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.AssemblyInfo.cs
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.dll
+C:\Users\Owner\Desktop\Test\Services\SystemTask.Services.Mapping\obj\Debug\netstandard2.1\SystemTask.Services.Mapping.pdb
