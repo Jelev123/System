@@ -1,6 +1,5 @@
 ﻿namespace SystemTask.Data.Models
 {
-    using global::System.Collections.Generic;
     using global::System.ComponentModel.DataAnnotations;
 
     public class Block

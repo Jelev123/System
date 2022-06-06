@@ -1,6 +1,6 @@
 ﻿namespace SystemTask.Services.Data
 {
-    using System.Collections.Generic;
+    using global::System.Collections.Generic;
 
     public interface ISettingsService
     {

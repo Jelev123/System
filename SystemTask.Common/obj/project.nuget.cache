@@ -1,11 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "oZkYMn7ky3v9ci77wXZj220KS+uAGGW/jqZlUQrUTek9zNH5JpORAfFko4z5gaYqjJ41noxlP+GlFuQdYDZm9A==",
+  "dgSpecHash": "P7B0hPWi5OsA6KhjCXvqGDtu1wnh2EILA0gohzyKJUmTnrNB0QLibsueITohcZAbyXnQSL3ZnV8gNF4Nvh1IeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Owner\\Desktop\\Test\\SystemTask.Common\\SystemTask.Common.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Owner\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
-    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+    "C:\\Users\\Owner\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

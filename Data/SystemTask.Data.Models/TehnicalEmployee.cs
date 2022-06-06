@@ -13,5 +13,12 @@
         public Tehnical Tehnical { get; set; }
 
         public int PinNumber { get; set; }
+
+        public string FirstName { get; set; }
+
+        public string SurName { get; set; }
+
+        public string LastName { get; set; }
+
     }
 }

@@ -678,3 +678,4 @@ C:\Users\Owner\Desktop\Test\Tests\SystemTask.Web.Tests\obj\Debug\net6.0\SystemTa
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Web.Tests\obj\Debug\net6.0\SystemTask.Web.Tests.genruntimeconfig.cache
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Web.Tests\obj\Debug\net6.0\ref\SystemTask.Web.Tests.dll
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Web.Tests\obj\Debug\net6.0\SystemTask.Web.Tests.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Owner\Desktop\Test\Tests\SystemTask.Web.Tests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

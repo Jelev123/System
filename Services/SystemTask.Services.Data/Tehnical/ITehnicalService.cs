@@ -1,16 +1,20 @@
 ﻿namespace SystemTask.Services.Data.Tehnical
 {
-    using System.Collections.Generic;
-    using System.Threading.Tasks;
+    using global::System.Collections.Generic;
+    using global::System.Threading.Tasks;
     using SystemTask.Data.Models.ViewModel;
 
     public interface ITehnicalService
     {
         Task Create(CreateTehnicalViewModel create);
 
-        IEnumerable<AllViewModel> GetAll<T>(int id);
+        IEnumerable<T> GetAllTehnical<T>(int id);
 
-        //int ById(int id);
+        IEnumerable<T> GetAllSystems<T>(int id);
+
+        IEnumerable<T> GetAllBlocks<T>(int id);
+
+        IEnumerable<T> GetAllEmployees<T>(int id);
 
     }
 }

@@ -1,7 +1,7 @@
 ﻿namespace SystemTask.Services.Data
 {
-    using System.Collections.Generic;
-    using System.Linq;
+    using global::System.Collections.Generic;
+    using global::System.Linq;
 
     using SystemTask.Data.Common.Repositories;
     using SystemTask.Data.Models;

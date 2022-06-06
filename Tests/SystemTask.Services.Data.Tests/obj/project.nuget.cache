@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "EsiNg4Lm1IIDRBVIbWAjEPa8m/jraY86mv5EUpOHhhSE5kfOqnGxqIJj28vMvuIaHiQaQwdTVq5C5Z3hKW5HXw==",
+  "dgSpecHash": "zWD6Tljd3D2pWUspou6o3ojC7jX3YemFz5R8HbL8CTzZKwGE3IwzBWRWFoO21pw+2B+lLA2UfTGF/pXZnLZCiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Owner\\Desktop\\Test\\Tests\\SystemTask.Services.Data.Tests\\SystemTask.Services.Data.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",

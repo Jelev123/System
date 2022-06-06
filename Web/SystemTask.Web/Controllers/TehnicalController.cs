@@ -1,21 +1,18 @@
 ﻿namespace SystemTask.Web.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
-    using System.Collections.Generic;
     using System.Threading.Tasks;
     using SystemTask.Data.Models.ViewModel;
-    using SystemTask.Services.Data.Block;
     using SystemTask.Services.Data.Tehnical;
 
     public class TehnicalController : Controller
     {
         private readonly ITehnicalService tehnicalService;
-        private readonly IBlockService blockService;
+      
 
-        public TehnicalController(ITehnicalService tehnicalService, IBlockService blockService)
+        public TehnicalController(ITehnicalService tehnicalService)
         {
             this.tehnicalService = tehnicalService;
-            this.blockService = blockService;
         }
 
         public IActionResult CreateTehnical()
@@ -41,7 +38,10 @@
 
             var viewModel = new AllListViewModel
             {
-                Tehnicals = this.tehnicalService.GetAll<AllViewModel>(id),
+                Tehnicals = this.tehnicalService.GetAllTehnical<AllViewModel>(id),
+                TehnicalBlocks = this.tehnicalService.GetAllBlocks<TehnicalBloksInputModel>(id),
+                TehnicalEmployees = this.tehnicalService.GetAllEmployees<TehnicalEmployeesInputModel>(id),
+                TehnicalSystems = this.tehnicalService.GetAllSystems<TehnicalSystemInputModel>(id),
             };
 
             return this.View(viewModel);

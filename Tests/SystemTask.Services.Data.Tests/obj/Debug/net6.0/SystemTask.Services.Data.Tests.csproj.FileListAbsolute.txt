@@ -166,3 +166,4 @@ C:\Users\Owner\Desktop\Test\Tests\SystemTask.Services.Data.Tests\obj\Debug\net6.
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Services.Data.Tests\obj\Debug\net6.0\SystemTask.Services.Data.Tests.pdb
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Services.Data.Tests\obj\Debug\net6.0\SystemTask.Services.Data.Tests.genruntimeconfig.cache
 C:\Users\Owner\Desktop\Test\Tests\SystemTask.Services.Data.Tests\obj\Debug\net6.0\ref\SystemTask.Services.Data.Tests.dll
+C:\Users\Owner\Desktop\Test\Tests\SystemTask.Services.Data.Tests\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

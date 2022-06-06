@@ -29,9 +29,7 @@
 
         public string LastName { get; set; }
 
-        public virtual IEnumerable<TehnicalBloksInputModel> TehnicalBlocks { get; set; }
-
-        public virtual IEnumerable<TehnicalEmployee> Employees { get; set; }
+      
 
     }
 }

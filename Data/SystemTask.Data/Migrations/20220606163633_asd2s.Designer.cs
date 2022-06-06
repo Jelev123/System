@@ -12,8 +12,8 @@ using SystemTask.Data;
 namespace SystemTask.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220530185447_CreateDataBase")]
-    partial class CreateDataBase
+    [Migration("20220606163633_asd2s")]
+    partial class asd2s
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -401,6 +401,9 @@ namespace SystemTask.Data.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("TehnicalId")
                         .HasColumnType("int");
 
@@ -424,8 +427,17 @@ namespace SystemTask.Data.Migrations
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
 
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("PinNumber")
                         .HasColumnType("int");
+
+                    b.Property<string>("SurName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TehnicalId")
                         .HasColumnType("int");

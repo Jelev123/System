@@ -1,8 +1,11 @@
 ﻿namespace SystemTask.Services.Data.Tehnical
 {
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Threading.Tasks;
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+
+    using global::System.Collections.Generic;
+    using global::System.Linq;
+    using global::System.Threading.Tasks;
     using SystemTask.Data.Common.Repositories;
     using SystemTask.Data.Models;
     using SystemTask.Data.Models.ViewModel;
@@ -13,19 +16,29 @@
         private readonly IRepository<Block> blockRepository;
         private readonly IRepository<System> systemRepository;
         private readonly IRepository<Employee> employeeRepository;
+        private readonly IRepository<TehnicalBlock> tehBlocksRepository;
+        private readonly IRepository<TehnicalEmployee> tehEmoloyeeRepository;
+        private readonly IRepository<TehnicalSystem> tehSystemRepository;
+        private readonly IMapper mapper;
 
-        public TehnicalService(IRepository<Tehnical> tehnicalRepository, IRepository<Block> blockRepository, IRepository<System> systemRepository, IRepository<Employee> employeeRepository)
+        public TehnicalService(IRepository<Tehnical> tehnicalRepository, IRepository<Block> blockRepository, IRepository<System> systemRepository, IRepository<Employee> employeeRepository,
+            IMapper mapper, IRepository<TehnicalBlock> tehBlocksRepository, IRepository<TehnicalEmployee> tehEmoloyeeRepository, IRepository<TehnicalSystem> tehSystemRepository)
         {
             this.tehnicalRepository = tehnicalRepository;
             this.blockRepository = blockRepository;
             this.systemRepository = systemRepository;
             this.employeeRepository = employeeRepository;
+            this.mapper = mapper;
+            this.tehBlocksRepository = tehBlocksRepository;
+            this.tehEmoloyeeRepository = tehEmoloyeeRepository;
+            this.tehSystemRepository = tehSystemRepository;
         }
 
         public async Task Create(CreateTehnicalViewModel create)
         {
             Tehnical tehnical = new Tehnical()
             {
+                Id = create.Id,
                 Name = create.Name,
                 Description = create.Description,
                 DateAndTimeCreated = create.CreationDate,
@@ -37,16 +50,16 @@
 
                 if (block == null)
                 {
-                    block = new Block { Name = blocks.BlockName };
+                    block = new Block { Name = blocks.BlockName, Code = blocks.Code};
                 }
 
                 tehnical.TehnicalBlocks.Add(new TehnicalBlock
                 {
                     Block = block,
+                    Id = blocks.BlockId,
+                    Name = blocks.BlockName,
                     Code = blocks.Code,
-
                 });
-
             }
 
             foreach (var systems in create.TehnicalSystems)
@@ -60,6 +73,7 @@
 
                 tehnical.TehnicalSystems.Add(new TehnicalSystem
                 {
+                    Id = system.Id,
                     System = system,
                     Code = systems.Code,
                     Name = system.Name,
@@ -74,6 +88,7 @@
                 {
                     employee = new Employee
                     {
+                        Id = employee.Id,
                         FirstName = employees.FirstName,
                         SurName = employees.SurName,
                         LastName = employees.LastName,
@@ -84,7 +99,11 @@
                 tehnical.TehnicalEmployees.Add(new TehnicalEmployee
                 {
                     Employee = employee,
+                    Id = employee.Id,
                     PinNumber = employees.PinNumber,
+                    FirstName = employees.FirstName,
+                    SurName = employees.SurName,
+                    LastName = employees.LastName,
                 });
             }
 
@@ -92,16 +111,32 @@
             await this.tehnicalRepository.SaveChangesAsync();
         }
 
-        public IEnumerable<AllViewModel> GetAll<T>(int id)
+        public IEnumerable<T> GetAllBlocks<T>(int id)
+        {
+            var all = this.tehBlocksRepository.All()
+                 .ProjectTo<T>(this.mapper.ConfigurationProvider);
+            return all;
+        }
+
+        public IEnumerable<T> GetAllEmployees<T>(int id)
+        {
+            var all = this.tehEmoloyeeRepository.All()
+               .ProjectTo<T>(this.mapper.ConfigurationProvider);
+            return all;
+        }
+
+        public IEnumerable<T> GetAllSystems<T>(int id)
+        {
+            var all = this.tehSystemRepository.All()
+               .ProjectTo<T>(this.mapper.ConfigurationProvider);
+            return all;
+        }
+
+        public IEnumerable<T> GetAllTehnical<T>(int id)
         {
 
             var all = this.tehnicalRepository.All()
-                 .Select(s => new AllViewModel
-                 {
-                     Name = s.Name,
-                     Description = s.Description,
-
-                 });
+                 .ProjectTo<T>(this.mapper.ConfigurationProvider);
             return all;
         }
     }

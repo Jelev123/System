@@ -15,7 +15,7 @@
             <label asp-for="CreationDate"></label>
             <input asp-for="CreationDate" class="form-control" />
         </div>
-       <div id="BlocksContainer">
+       <div id="BlockContainer">
         <label asp-for="TehnicalBlocks"></label>
         <a class="btn btn-success" onclick="AddMoreBlocks()">+</a>
     </div>
@@ -37,7 +37,7 @@
     <script>
         var blockIndex = 0;
         function AddMoreBlocks() {
-            $("#BlocksContainer").
+            $("#BlockContainer").
                 append("<div class='form-control'>Name: <input type='text' name='TehnicalBlocks[" + blockIndex + "].BlockName' /> Code: <input type='text' name='TehnicalBlocks[" + blockIndex +"].Code' /></div>");
             blockIndex++;
         }
@@ -47,7 +47,7 @@
         var systemIndex = 0;
         function AddMoreSystems() {
             $("#SystemContainer").
-                append("<div class='form-control'>Name: <input type='text' name='TehnicalSystems[" + systemIndex + "].SysteName' /> Code: <input type='text' name='TehnicalSystems[" + systemIndex +"].Code' /></div>");
+                append("<div class='form-control'>Name: <input type='text' name='TehnicalSystems[" + systemIndex + "].SystemName' /> Code: <input type='text' name='TehnicalSystems[" + systemIndex +"].Code' /></div>");
             systemIndex++;
         }
     </script>

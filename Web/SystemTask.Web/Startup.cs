@@ -18,7 +18,6 @@
     using SystemTask.Data.Repositories;
     using SystemTask.Data.Seeding;
     using SystemTask.Services.Data;
-    using SystemTask.Services.Data.Block;
     using SystemTask.Services.Data.Tehnical;
     using SystemTask.Services.Mapping;
     using SystemTask.Services.Messaging;
@@ -36,6 +35,9 @@
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            services.AddAutoMapper(typeof(Startup));
+
             services.AddDbContext<ApplicationDbContext>(
                 options => options.UseSqlServer(this.configuration.GetConnectionString("DefaultConnection")));
 
@@ -68,7 +70,6 @@
             services.AddTransient<IEmailSender, NullMessageSender>();
             services.AddTransient<ISettingsService, SettingsService>();
             services.AddTransient<ITehnicalService, TehnicalService>();
-            services.AddTransient<IBlockService, BlockService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

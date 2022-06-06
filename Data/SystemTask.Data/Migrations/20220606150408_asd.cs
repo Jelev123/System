@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace SystemTask.Data.Migrations
 {
-    public partial class CreateDataBase : Migration
+    public partial class asd : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -246,6 +246,7 @@ namespace SystemTask.Data.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     BlockId = table.Column<int>(type: "int", nullable: false),
                     TehnicalId = table.Column<int>(type: "int", nullable: false),
                     Code = table.Column<string>(type: "nvarchar(max)", nullable: true)

@@ -399,6 +399,9 @@ namespace SystemTask.Data.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("TehnicalId")
                         .HasColumnType("int");
 
@@ -422,8 +425,17 @@ namespace SystemTask.Data.Migrations
                     b.Property<int>("EmployeeId")
                         .HasColumnType("int");
 
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("PinNumber")
                         .HasColumnType("int");
+
+                    b.Property<string>("SurName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TehnicalId")
                         .HasColumnType("int");

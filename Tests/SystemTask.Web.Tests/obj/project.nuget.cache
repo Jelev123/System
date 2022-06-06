@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dJ1q0f334616V7YtNgvF/Xmj+mvv+m7kgyYlvCGFYylN5DjCej3ZWB6v1yf2E+S8AE5iKpdmjA0Ffo3vUswLLg==",
+  "dgSpecHash": "qgyhRDq2rm0WSdohK9Wsi1MWTcFFGKNpwSOil7ogWKJ8UH4M38fx0xXCZvzPnyFgtpKoaYcRKWRYeJuhspXGUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Owner\\Desktop\\Test\\Tests\\SystemTask.Web.Tests\\SystemTask.Web.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

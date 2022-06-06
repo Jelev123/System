@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gFDV5rAtIUXdaHQrdUsAeBhPJ6JmX3uiNQ6NZLkSqzKn5LXsLlAsvY3Y6yvOpIfSMTGDFXLtEjqkd3oskhyu0g==",
+  "dgSpecHash": "GvJIc23X8CzJv1A8Mtki8Z8UxYKri1oXF9hjKQyuwmBMjDgDX+vGnhUbAmpQXCW3fAtYthEEcVC+Pn6vLY1ZmA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Owner\\Desktop\\Test\\Tests\\Sandbox\\Sandbox.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Owner\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Owner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\commandlineparser\\2.8.0\\commandlineparser.2.8.0.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.3\\microsoft.aspnetcore.cryptography.internal.6.0.3.nupkg.sha512",
     "C:\\Users\\Owner\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.3\\microsoft.aspnetcore.cryptography.keyderivation.6.0.3.nupkg.sha512",
