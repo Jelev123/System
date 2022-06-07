@@ -7,9 +7,7 @@
 
     <div class="row">
 
-        @foreach (var item in Model.Tehnicals)
-        {
-        <thead>
+           <thead style="background-color:cornflowerblue">
             <tr>
                 <th scope="col"></th>
                 <th style="color : white" scope="col">Name</th>
@@ -20,6 +18,9 @@
                 <th style="color : white" scope="col">Responsible Person</th>
             </tr>
         </thead>
+        @foreach (var item in Model.Tehnicals)
+        {
+     
         <tbody>
             <tr>
                 <th scope="row" class="align-content-lg-stretch"></th>
@@ -58,7 +59,7 @@
                         {
                             @if (employee.TehnicalId == item.Id)
                             {
-                            <p style="margin-bottom:0">@employee.Activity @employee.FirstName @employee.SurName @employee.LastName</p>
+                            <p style="margin-bottom:0">@employee.Activity:  @employee.FirstName @employee.SurName @employee.LastName</p>
                             }
 
                         }
