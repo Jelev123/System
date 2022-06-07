@@ -21,8 +21,5 @@
         public string Activity { get; set; }
 
         public int PinNumber { get; set; }
-
-        
-
     }
 }

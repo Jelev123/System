@@ -5,5 +5,8 @@
         public string SystemName { get; set; }
 
         public string Code { get; set; }
+
+        public int TehnicalId { get; set; }
+
     }
 }

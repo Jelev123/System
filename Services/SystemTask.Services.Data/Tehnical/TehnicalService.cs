@@ -50,13 +50,12 @@
 
                 if (block == null)
                 {
-                    block = new Block { Name = blocks.BlockName, Code = blocks.Code};
+                    block = new Block { Name = blocks.BlockName, Code = blocks.Code };
                 }
 
                 tehnical.TehnicalBlocks.Add(new TehnicalBlock
                 {
                     Block = block,
-                    Id = blocks.BlockId,
                     Name = blocks.BlockName,
                     Code = blocks.Code,
                 });
@@ -73,10 +72,10 @@
 
                 tehnical.TehnicalSystems.Add(new TehnicalSystem
                 {
-                    Id = system.Id,
+
                     System = system,
                     Code = systems.Code,
-                    Name = system.Name,
+                    Name = systems.SystemName,
                 });
             }
 
@@ -88,7 +87,6 @@
                 {
                     employee = new Employee
                     {
-                        Id = employee.Id,
                         FirstName = employees.FirstName,
                         SurName = employees.SurName,
                         LastName = employees.LastName,
@@ -99,11 +97,11 @@
                 tehnical.TehnicalEmployees.Add(new TehnicalEmployee
                 {
                     Employee = employee,
-                    Id = employee.Id,
                     PinNumber = employees.PinNumber,
                     FirstName = employees.FirstName,
                     SurName = employees.SurName,
                     LastName = employees.LastName,
+                    Activity = employees.Activity,
                 });
             }
 

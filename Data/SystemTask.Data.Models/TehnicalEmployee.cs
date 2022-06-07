@@ -1,5 +1,7 @@
 ﻿namespace SystemTask.Data.Models
 {
+    using global::System.ComponentModel.DataAnnotations.Schema;
+
     public class TehnicalEmployee
     {
         public int Id { get; set; }
@@ -19,6 +21,9 @@
         public string SurName { get; set; }
 
         public string LastName { get; set; }
+
+        public string Activity { get; set; }
+
 
     }
 }

@@ -6,29 +6,12 @@
     public class CreateTehnicalViewModel
     {
         public int Id { get; set; }
+
         public string Name { get; set; }
-
-        public string SystemName { get; set; }
-
-        public string FirstName { get; set; }
-
-        public string Surname { get; set; }
-
-        public string LastName { get; set; }
 
         public string Description { get; set; }
 
-        public string BlockName { get; set; }
-
-        public string BlockCode { get; set; }
-
-        public int BlockId { get; set; }
-
         public DateTime CreationDate { get; set; }
-
-        public string Activity { get; set; }
-
-        public int PinNumber { get; set; }
 
         public IEnumerable<TehnicalBloksInputModel> TehnicalBlocks { get; set; }
 
