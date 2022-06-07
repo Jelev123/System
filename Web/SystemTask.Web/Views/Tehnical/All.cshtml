@@ -2,7 +2,7 @@
 @using System.Text
 @model AllListViewModel
 
-<table class="table  table-dark">
+<table class="table  table-primary table-hover">
 
 
     <div class="row">
@@ -22,7 +22,7 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row"></th>
+                <th scope="row" class="align-content-lg-stretch"></th>
                 <td>@item.Name</td>
                 <td>@item.Description</td>
 
@@ -31,7 +31,7 @@
                         {
                             @if (block.TehnicalId == item.Id)
                             {
-                            <h5>@block.BlockName @block.Code</h5>
+                            <p style="margin-bottom:0">@block.BlockName @block.Code</p>
 
                             }
 
@@ -43,7 +43,7 @@
                         {
                             @if (system.TehnicalId == item.Id)
                             {
-                            <h5>@system.SystemName @system.Code</h5>
+                            <p style="margin-bottom:0">@system.SystemName @system.Code</p>
 
                             }
 
@@ -58,9 +58,7 @@
                         {
                             @if (employee.TehnicalId == item.Id)
                             {
-                            <h5>@employee.Activity @employee.FirstName @employee.SurName @employee.LastName</h5>
-
-
+                            <p style="margin-bottom:0">@employee.Activity @employee.FirstName @employee.SurName @employee.LastName</p>
                             }
 
                         }
